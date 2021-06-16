@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "931"
+AuthUserFile [ .htpasswdファイルの場所 ]
+require valid-user

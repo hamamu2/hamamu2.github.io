@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Password</title>
+    <title>パスワードを入力</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="padlock.svg" type="image/svg+xml">
@@ -13,8 +13,8 @@
   <body>
     <font color="#FFFFFF">
     <form id="form">
-      <p id="message">Please enter your password.</p>
-      <input type="passwaod" placeholder="password" id="password">
+      <p id="message">パスワードを入力してください</p>
+      <input type="5554" placeholder="password" id="password">
     </form>
     <script>
       function hash(text) {
@@ -39,7 +39,7 @@
         };
         xhr.onerror = function () {
           const message = document.getElementById('message');
-          message.innerHTML = 'Sorry, ERROR !';
+          message.innerHTML = 'エラー';
         };
       }
       const form = document.getElementById('form');
@@ -50,5 +50,5 @@
       });
     </script>
   </body>
-  <font color="#FFFFFF">  
+  </font>  
 </html>

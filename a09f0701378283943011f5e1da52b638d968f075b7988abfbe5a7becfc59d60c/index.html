@@ -20,11 +20,15 @@
       <div align="center">
         <button type=“button” onclick="location.href='https://youtu.be/dQw4w9WgXcQ'">コードを受け取る</button>
         <div id="text-button" onclick="clickDisplayAlert()">Click</div>
+ 
         <script>
-    function clickDisplayAlert() {
-      alert("ボタンがクリックされました！");
-    }
-</script>
+            function clickDisplayAlert() {
+              alert("ボタンがクリックされました！");
+            }
+            function clickTextRewrite() {
+              document.getElementById("text-button").textContent="Clicked!";
+            }
+        </script>
         </div>
   </body>
   </font>

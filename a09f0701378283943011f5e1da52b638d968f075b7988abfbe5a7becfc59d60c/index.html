@@ -10,24 +10,24 @@
   <body>
     <font color="#FFFFFF">
     <marquee bgcolor="#006400">おめでとうございます🎉 iTunes Card が当選しました✨</marquee>
-    
+
       <div align="center">
       <h1>iTunes カード</h1>
         </div>
       <div align="center">
       <img src="./img/itunes.png" alt="Itunesカード" width="100" height="70">
       <div align="center">
-      <p>＊＊＊＊-＊＊＊＊-＊＊＊＊-＊＊＊＊</p>
+      <span style="background-color:#72C6EF">
+      ＊＊＊＊-＊＊＊＊-＊＊＊＊-＊＊＊＊
+      </span>
       </div>
       <div align="center">
-        <div id="text-button" onclick="clickDisplayAlert()">Click</div>
- 
+        <marquee height="50" width="100" behavior="alternate" direction="up" scrollamount="10" truespeed>⇩⇩⇩⇩⇩⇩</marquee><br>
+        <button type="button" onclick="clickDisplayAlert()">コードを表示</button>
+
         <script>
             function clickDisplayAlert() {
               alert("コード: テストです");
-            }
-            function clickTextRewrite() {
-              document.getElementById("text-button").textContent="Clicked!";
             }
         </script>
         </div>
